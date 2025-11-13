@@ -7,13 +7,23 @@
 
 import SwiftUI
 
+class DoTryCatchViewModel: ObservableObject {
+    @Published var title = "Hello"
+    func fetchTitle() {
+        
+    }
+}
+
 struct ContentView: View {
+    @StateObject private var viewModel: DoTryCatchViewModel = DoTryCatchViewModel()
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            
+            Text(viewModel.title)
+                .frame(width: 300,height: 300)
+                .onTapGesture {
+                    viewModel.fetchTitle()
+                }
         }
         .padding()
     }

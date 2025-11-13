@@ -23,6 +23,7 @@ struct ContentView: View {
                 .frame(width: 300,height: 300)
                 .background(.blue)
                 .onTapGesture {
+                    print("Clicked")
                     viewModel.fetchTitle()
                 }
         }

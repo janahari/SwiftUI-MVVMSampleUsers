@@ -15,22 +15,36 @@ class DoTryCatchDataManager {
         } else {
             return (nil,URLError(URLError.badURL))
         }
-       
+    }
+    func getTitle2() -> Result<String, Error> {
+        if !isActive {
+            return .success("New Text")
+        } else {
+            return .failure(URLError(URLError.badURL))
+        }
+        
     }
 }
+
 class DoTryCatchViewModel: ObservableObject {
     @Published var title = "Hello"
     let manager = DoTryCatchDataManager()
-    func fetchTitle() {
+    func fetchTitle() {/*
         let returnedData = manager.getTitle()
         if let title = returnedData.title {
             self.title = title
         } else if let error = returnedData.error {
             self.title = error.localizedDescription
         }
-        
+                        */
+        let result = manager.getTitle2()
+        switch result {
+        case .success(let title):
+            self.title = title
+        case .failure(let error):
+            self.title = error.localizedDescription
+        }
     }
-    
 }
 
 struct ContentView: View {

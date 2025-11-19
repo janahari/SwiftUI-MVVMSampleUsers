@@ -44,6 +44,7 @@
 		183693FD2EC63036007723ED /* DoTryCatchBootCampUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoTryCatchBootCampUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		183694012EC63036007723ED /* DoTryCatchBootCampUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoTryCatchBootCampUITests.swift; sourceTree = "<group>"; };
 		183694032EC63036007723ED /* DoTryCatchBootCampUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoTryCatchBootCampUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		18B9BAA42ECD6FEB00E10AD5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +95,7 @@
 		183693E52EC63034007723ED /* DoTryCatchBootCamp */ = {
 			isa = PBXGroup;
 			children = (
+				18B9BAA42ECD6FEB00E10AD5 /* README.md */,
 				183693E62EC63034007723ED /* DoTryCatchBootCampApp.swift */,
 				183693E82EC63034007723ED /* ContentView.swift */,
 				183693EA2EC63036007723ED /* Assets.xcassets */,

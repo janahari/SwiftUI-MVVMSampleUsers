@@ -11,7 +11,7 @@ import SwiftUI
 struct DoTryCatchBootCampApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            DownloadImageAsync()
         }
     }
 }

@@ -14,6 +14,7 @@
 		183693F82EC63036007723ED /* DoTryCatchBootCampTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183693F72EC63036007723ED /* DoTryCatchBootCampTests.swift */; };
 		183694022EC63036007723ED /* DoTryCatchBootCampUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183694012EC63036007723ED /* DoTryCatchBootCampUITests.swift */; };
 		183694042EC63036007723ED /* DoTryCatchBootCampUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183694032EC63036007723ED /* DoTryCatchBootCampUITestsLaunchTests.swift */; };
+		188477512ECE8DAA00BBD4ED /* DownloadImageAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188477502ECE8DAA00BBD4ED /* DownloadImageAsync.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		183693FD2EC63036007723ED /* DoTryCatchBootCampUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoTryCatchBootCampUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		183694012EC63036007723ED /* DoTryCatchBootCampUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoTryCatchBootCampUITests.swift; sourceTree = "<group>"; };
 		183694032EC63036007723ED /* DoTryCatchBootCampUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoTryCatchBootCampUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		188477502ECE8DAA00BBD4ED /* DownloadImageAsync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImageAsync.swift; sourceTree = "<group>"; };
 		18B9BAA42ECD6FEB00E10AD5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,6 +99,7 @@
 			children = (
 				18B9BAA42ECD6FEB00E10AD5 /* README.md */,
 				183693E62EC63034007723ED /* DoTryCatchBootCampApp.swift */,
+				188477502ECE8DAA00BBD4ED /* DownloadImageAsync.swift */,
 				183693E82EC63034007723ED /* ContentView.swift */,
 				183693EA2EC63036007723ED /* Assets.xcassets */,
 				183693EC2EC63036007723ED /* Preview Content */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				183693E92EC63034007723ED /* ContentView.swift in Sources */,
+				188477512ECE8DAA00BBD4ED /* DownloadImageAsync.swift in Sources */,
 				183693E72EC63034007723ED /* DoTryCatchBootCampApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
